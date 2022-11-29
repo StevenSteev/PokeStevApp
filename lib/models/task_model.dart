@@ -12,9 +12,10 @@ class TaskModel {
   });
 
   factory TaskModel.deMapAModel(Map<String, dynamic> mapa) => TaskModel(
-        id: mapa["id"],
-        title: mapa["title"],
-        description: mapa["description"],
-        status: mapa["status"],
-      );
+    id: mapa["id"],
+    title: mapa["title"],
+    description: mapa["description"],
+    status: mapa["status"],
+  );
+
 }
